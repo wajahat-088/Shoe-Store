@@ -9,8 +9,7 @@ export default defineConfig({
             refresh: true,
         }),
         react({
-            fastRefresh: true,
-            jsxRuntime: 'automatic',
+           jsxRuntime: 'classic',
         }),
     ],
     server: {
